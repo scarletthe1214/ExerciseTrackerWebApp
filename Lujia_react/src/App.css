@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif; 
+  background-color: lightpink;
+  color: white;
+  margin: 5px;
+  padding: 2px;
+  border: 5px solid white;
+}
+
+.App-body {
+  min-height: 70vh;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: baseline ;
+  font-size: calc(10px + 2vmin);
+}
+
+.App {
+  text-align: center;
+}
+
+/* navigation part */
+.App-nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.App-nav a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: white;
+  font-weight: bold;
+  padding: 6px;
+  width: 100px;
+  border: 2px solid navajowhite;
+  box-shadow: 3px 3px 0 rgb(254, 129, 152);
+}
+
+.App-nav a:hover {
+  color: #ddd;
+}
+
+/* table part */
+table{
+  border: 10px solid white;
+  margin-top: 2%;
+}
+
+td, th {
+  border: 2px solid plum;
+  padding: 8px;
+  width: 150px;
+  text-align: right;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+tr:hover {background-color: #ddd;}
+
+/* add and edit header */
+/* button part */
+button {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  background-color: lightpink;
+  color: navajowhite;
+  padding: 6px;
+  width: 100px;
+  border: 2px solid navajowhite;
+  box-shadow: 3px 3px 0 rgb(254, 129, 152);
+}
+
+button a:hover {
+  color: #ddd;
+}
